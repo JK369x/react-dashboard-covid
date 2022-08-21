@@ -20,6 +20,7 @@ const Featured = () => {
             <p className='amount'>$420</p>
             <p className='desc'>
                 Previous transactions processing. Last payments may not be included.
+
             </p>
             <div className="summary">
                 <div className="item">
