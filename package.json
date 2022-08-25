@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/x-data-grid": "^5.15.3",
     "react-circular-progressbar": "^2.1.0",
     "recharts": "^2.1.13"
   }

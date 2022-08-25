@@ -4,6 +4,8 @@ import './home.scss'
 import Widget from '../../components/widgets/Widget'
 import Featured from '../../components/featured/Featured'
 import  Chart  from '../../components/chart/Chart'
+import { Tab } from '@mui/material'
+import Table from '../../components/table/Table'
 
 function Home() {
   return (
@@ -20,6 +22,12 @@ function Home() {
         <div className="charts">
           <Featured/>
           <Chart/>
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">
+            Latest Transactions
+          </div>
+          <Table/>
         </div>
       </div> 
     </div>
